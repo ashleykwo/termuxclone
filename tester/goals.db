@@ -1,19 +1,3 @@
-{"description":"Do 10 minutes meditation every day","_id":"6f4X4JFZA2VjFluf","createdAt":{"$$date":1492456209318},"updatedAt":{"$$date":1492456209318}}
-{"description":"Do 10 minutes meditation every day","_id":"9X1e9yuYL5BCC4i8","createdAt":{"$$date":1492457565414},"updatedAt":{"$$date":1492457565414}}
-{"description":"Do 10 minutes meditation every day","_id":"K48Hr3fQkTlFMDiQ","createdAt":{"$$date":1492455705692},"updatedAt":{"$$date":1492455705692}}
-{"description":"Do 10 minutes meditation every day","_id":"PRkIO4HlCzEJquhm","createdAt":{"$$date":1492457926469},"updatedAt":{"$$date":1492457926469}}
-{"description":"Do 10 minutes meditation every day","_id":"ZTYlVjJ7xpkNHAJ5","createdAt":{"$$date":1492458106106},"updatedAt":{"$$date":1492458106106}}
-{"description":"Read about functional programming every day","_id":"aJLzdC5bL1jDXxEr","createdAt":{"$$date":1492457626036},"updatedAt":{"$$date":1492457626036}}
-{"description":"Do 10 minutes meditation every day","_id":"bagKDIoA3ORGZJKP","createdAt":{"$$date":1492457823481},"updatedAt":{"$$date":1492457823481}}
-{"description":"Do 10 minutes meditation every day","_id":"hXUkpNn54xZbz6sf","createdAt":{"$$date":1492456475975},"updatedAt":{"$$date":1492456475975}}
-{"description":"Do 10 minutes meditation every day","_id":"iHGLV7v59YBJ8TK7","createdAt":{"$$date":1492457268565},"updatedAt":{"$$date":1492457268565}}
-{"description":"Do 10 minutes meditation every day","_id":"s5VpratB5VtmM9eO","createdAt":{"$$date":1492457917981},"updatedAt":{"$$date":1492457917981}}
-{"$$deleted":true,"_id":"ZTYlVjJ7xpkNHAJ5"}
-{"$$deleted":true,"_id":"PRkIO4HlCzEJquhm"}
-{"$$deleted":true,"_id":"s5VpratB5VtmM9eO"}
-{"$$deleted":true,"_id":"bagKDIoA3ORGZJKP"}
-{"$$deleted":true,"_id":"9X1e9yuYL5BCC4i8"}
-{"$$deleted":true,"_id":"iHGLV7v59YBJ8TK7"}
-{"$$deleted":true,"_id":"hXUkpNn54xZbz6sf"}
-{"$$deleted":true,"_id":"6f4X4JFZA2VjFluf"}
 {"description":"Take attendance and leave","_id":"D3avtvdYJpukYfbn","createdAt":{"$$date":1492459042985},"updatedAt":{"$$date":1492459042985}}
+{"description":"Do 10 minutes meditation every day","_id":"K48Hr3fQkTlFMDiQ","createdAt":{"$$date":1492455705692},"updatedAt":{"$$date":1492455705692}}
+{"description":"Read about functional programming every day","_id":"aJLzdC5bL1jDXxEr","createdAt":{"$$date":1492457626036},"updatedAt":{"$$date":1492457626036}}
