@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Goals tracking app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css"> {{!--
+    <link rel="stylesheet" type="text/css" href="public/css/main.css" />--}}
+</head>
+
+<body>
+    {{!-- Start of MDL Layout --}}
+    <div class="mdl-layout mdl-js-layout mdl-layout--no-drawer-button mdl-layout--fixed-header mdl-color--grey-100">
+
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout__title">My current goals</span>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout__title">My current goals</span>
+        </div>
+
+        <main class="mdl-layout__content">
+            <div>{{{body}}}</div>
+        </main>
+
+    </div> {{!-- End of MDL Layout --}}
+
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/umbrella/2.0.1/umbrella.min.js"></script>
+    <script type="text/javascript">
+        // domReady - Credit: beeker.io
+        var domReady = function(callback) {
+            document.readyState === "interactive" || document.readyState === "complete" ? callback() : document.addEventListener("DOMContentLoaded", callback);
+        };
+        domReady(function() {
+            var deleteButtons = u('.delete');
+            deleteButtons.each(function(currentValue) {
+                var li = currentValue.closest('li');
+                var id = li.id;
+                currentValue.addEventListener('click', function() {
+                    fetch('goals/' + id, {
+                        method: 'delete'
+                    }).then(function(responseObj) {
+                        li.remove();
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
